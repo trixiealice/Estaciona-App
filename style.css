@@ -12,14 +12,24 @@ body {
 }
 
 header {
+    display: flex;
+    padding: 5vh;
+    align-items: center;
+}
 
-
+.logo {
+    
+    padding-left: 4vh;
+    padding-right: 10vh;
 }
 
 nav a {
     font-family: Khula;
     color: #FFFFFF;
-    font-size: 3vh;
+    font-size: 4vh;
+    padding-top: 10vh;
+    margin-left: 15vh;
+
 
 }
 
@@ -54,15 +64,14 @@ nav .destaque {
 }
 
 .text-hero h1 {
-    font-size: 7vh;
+    font-size: 10vh;
     font-weight: 300;
-        box-shadow: #011931 10px;
-
+    
 
 }
 
 .text-hero h2{
-    font-size: 3vh;
+    font-size: 4vh;
     font-weight: 90;
     padding-bottom: 5vh;
 

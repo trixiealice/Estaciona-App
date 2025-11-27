@@ -5,6 +5,7 @@
 
 body {
     background-image: url(./img/city-square\ 2.png);
+    backdrop-filter: blur(5px);
     background-color: #011931;
     background-size: cover;
 
@@ -12,30 +13,58 @@ body {
 
 header {
 
+
+}
+
+nav a {
+    font-family: Khula;
+    color: #FFFFFF;
+    font-size: 3vh;
+
+}
+
+nav .destaque {
+    color: #FEB704;
+}
+
+.hero-content {
+    padding-left: 12vh;
 }
 
 .buttom {
     display: inline-block;
     background-color: #FEB704;
-    color: #FFFFFF;
+    font-family: Khula;
+    color: #011931;
+    font-size: 3vh;
     font-weight: 500;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 15px;
+
+
 }
 
 .text-hero {
     font-family: Jockey One;
     color: #FFFFFF;
+    padding-top: 10vh;
 }
 
 .text-hero h1 {
-    font-size: 40px;
+    font-size: 7vh;
     font-weight: 300;
+        box-shadow: #011931 10px;
+
 
 }
 
 .text-hero h2{
-    
+    font-size: 3vh;
+    font-weight: 90;
+    padding-bottom: 5vh;
+
+
 }

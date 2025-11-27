@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #011931;
+    --second-color: #FEB704;
+}
+
+body {
+    background-image: url(./img/city-square\ 2.png);
+    background-color: #011931;
+    background-size: cover;
+
+}
+
+header {
+
+}
+
+.buttom {
+    display: inline-block;
+    background-color: #FEB704;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-hero {
+    font-family: Jockey One;
+    color: #FFFFFF;
+}
+
+.text-hero h1 {
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.text-hero h2{
+    
+}

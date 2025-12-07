@@ -155,3 +155,42 @@ nav .destaque {
     margin-right: 0;
     text-align: left;
 }
+
+.demonstracao-container{
+    display:flex;
+    gap: 50px;
+}
+
+.text-demonstracao{
+    text-align:center;
+    color:#FFFFFF;
+    margin-bottom: 10px;
+}
+
+.funcionalidades-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.funcionalidade{
+    display:flex;
+    color:#FFFFFF;
+    gap: 20px;
+}
+
+.funcionalidade img{
+    height: 30px;
+    max-width: 30px;
+}
+
+.demonstracao{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demonstracao img{
+    width: 550px;
+}

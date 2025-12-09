@@ -214,3 +214,19 @@ nav .destaque {
         font-weight: thin;
     }
 }
+
+.informacoes-container {
+    color: #FFFFFF;
+    font-family: koho;
+    flex-direction: ;
+
+    h1 {
+        color: #FEB704;
+        font-weight: 400;
+
+    }
+
+    h2 {
+        font-weight: 200;
+    }
+}

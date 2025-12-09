@@ -10,18 +10,24 @@ html {
 
 .scrolling-bg {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    background-position: center;
+    background-image: url(Estaciona-App/img/demonstracao-img.png);
+    background-size: cover;
+
 }
 
 body {
     background-color: #001121;
     background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
 
 }
 
@@ -99,6 +105,7 @@ nav .destaque {
     border: none;
     border-radius: 10px;
     font-size: 1.5rem;
+    margin-top: 10rem;
 }
 .card {
     display: flex;
@@ -144,6 +151,18 @@ nav .destaque {
     color: #FFFFFF;
     padding-top: 20rem;
     font-family: Koho;
+
+    h1 {
+        margin-bottom: 1rem;
+        font-weight: 300;
+    }
+
+    h2 {
+        color: #B1C0CF;
+        font-weight: 300;
+        margin-bottom: 7rem;
+
+    }
 }
 
 .cards-beneficios{
@@ -151,22 +170,37 @@ nav .destaque {
  justify-content: center;
  gap: 2rem;
  margin-top: 10px;
+ margin-bottom: 12rem;
 }
 
 .cards-beneficios .card{
     margin-right: 0;
     text-align: left;
+    border-radius: 25px;
 }
 
 .demonstracao-container{
     display:flex;
     gap: 50px;
+    margin-bottom: 15rem;
 }
 
 .text-demonstracao{
     text-align:center;
     color:#FFFFFF;
     margin-bottom: 10px;
+
+    h1 {
+        font-weight: 300;
+        margin-bottom: 12px;      
+    }
+
+    h2 {
+        font-weight: 300;
+        color: #B1C0CF;
+        margin-bottom: 5rem;
+}
+
 }
 
 .funcionalidades-container{
@@ -181,6 +215,12 @@ nav .destaque {
     display:flex;
     color:#FFFFFF;
     gap: 20px;
+
+    h2 {
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
 }
 
 .funcionalidade img{
@@ -197,18 +237,25 @@ nav .destaque {
 
 .demonstracao img{
     width: 550px;
+    margin-left: 3rem;
 }
 
 .agendar-btn {
     background-color: #FEB704;
+    align-items: center;
     font-family: koho;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 20px;
     color:#011931;
+    border: none;
     border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: translateX(800px);
 }
 
 .text-apresentacao {
@@ -219,12 +266,21 @@ nav .destaque {
 
     h1 {
         font-weight: normal;
+        margin-bottom: 2rem;
         
     }
 
     h2 {
-        font-weight: thin;
+        font-weight: normal;
+        color: #B1C0CF;
     }
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .informacoes-container {

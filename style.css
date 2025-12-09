@@ -199,6 +199,18 @@ nav .destaque {
     width: 550px;
 }
 
+.agendar-btn {
+    background-color: #FEB704;
+    font-family: koho;
+    font-weight: bold;
+    color:#011931;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .text-apresentacao {
     font-family: Koho;
     color: #FFFFFF;
@@ -218,11 +230,13 @@ nav .destaque {
 .informacoes-container {
     color: #FFFFFF;
     font-family: koho;
-    flex-direction: ;
+    text-align: center;
+
 
     h1 {
         color: #FEB704;
         font-weight: 400;
+        padding-bottom: 20px;
 
     }
 

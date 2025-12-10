@@ -300,3 +300,60 @@ nav .destaque {
         font-weight: 200;
     }
 }
+
+footer{
+    background-color: #011931;
+    padding: 4rem 3rem;
+    margin-top: 5rem;
+}
+
+.footer{
+    display:flex;
+    align-items: top;
+    justify-content: space-evenly;
+}
+
+.footer-logo p{
+    width:  clamp(230px, 18vw, 280px);
+     color:#B1C0CF;
+    font-size: 20px;
+    font-family: Khula;
+}
+
+.footer-logo img{
+    width: clamp(140px, 12vw, 220px);
+    margin-bottom: 2rem;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Khula;
+}
+
+.footer-links a, .footer-links h1{
+    color:#B1C0CF;
+    font-size: 20px;
+    font-family: Khula;
+}
+
+.footer-contact h1, .footer-contact p{
+    gap: 1rem;
+    font-size: 20px;
+    font-family: Khula;
+    color:#B1C0CF;
+}
+
+.footer-social img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.footer-social h1{
+    gap: 1rem;
+    font-size: 20px;
+    font-family: Khula;
+    color:#B1C0CF;
+}

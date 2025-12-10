@@ -240,25 +240,18 @@ nav .destaque {
     margin-left: 3rem;
 }
 
-.agendar-btn {
-    background-color: #FEB704;
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    font-family: koho;
-    font-weight: 500;
-    font-size: 20px;
-    color:#011931;
-    border: none;
-    border-radius: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    transform: translateX(800px);
+    margin-bottom: 10rem;
+    padding: 0 3rem;
 }
 
 .text-apresentacao {
+    display: flex;
+    flex-direction: column;
     font-family: Koho;
     color: #FFFFFF;
     justify-content: center;
@@ -402,8 +395,11 @@ footer{
     .cards-beneficios{
         flex-direction: column;
         align-items: left;
-        margin-left: 0;
         margin: 0;
+    }
+
+    .beneficios{
+        padding-top: 5rem;
     }
 
     .text-demonstracao, .demonstracao-container img{

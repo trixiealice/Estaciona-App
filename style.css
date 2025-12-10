@@ -160,7 +160,7 @@ nav .destaque {
     h2 {
         color: #B1C0CF;
         font-weight: 300;
-        margin-bottom: 7rem;
+        margin-bottom: 3rem;
 
     }
 }
@@ -356,4 +356,102 @@ footer{
     font-size: 20px;
     font-family: Khula;
     color:#B1C0CF;
+}
+
+@media screen and (max-width: 500px) {
+    html{
+        overflow-x: hidden;
+    }
+    
+    .scrolling-bg{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-hero {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .agendar-btn {
+        transform: translateX(0);
+    }
+
+    .comece-agora-btn{
+        margin: 2rem auto;
+    }
+
+    .card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .cards-beneficios{
+        flex-direction: column;
+        align-items: left;
+        margin-left: 0;
+        margin: 0;
+    }
+
+    .text-demonstracao, .demonstracao-container img{
+       display: none;
+    }
+
+    .funcionalidade{
+        gap: 5px;
+    }
+
+    .funcionalidade img{
+        display: inherit;
+        margin: 0;
+    }
+
+    .funcionalidade h2{
+        font-size: 16px;
+    }
+
+    .demonstracao-container{
+        align-items: center;
+        gap: 0;
+        margin-bottom: 2rem;
+    }
+
+    .agendar-btn{
+        transform: translateX(0);
+    }
+
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .informacoes{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer{
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    
 }

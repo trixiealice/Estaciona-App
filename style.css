@@ -10,7 +10,7 @@ html {
 
 .scrolling-bg {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -20,6 +20,7 @@ html {
     background-position: center;
     background-image: url(Estaciona-App/img/demonstracao-img.png);
     background-size: cover;
+    overflow-x: hidden;
 
 }
 
@@ -357,7 +358,9 @@ footer{
     }
     
     .scrolling-bg{
-        max-width: 100vw;
+        
+        width: 100vw;
+        height: 100vh;
         overflow-x: hidden;
     }
 

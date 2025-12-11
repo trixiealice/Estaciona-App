@@ -352,6 +352,72 @@ footer{
     color:#B1C0CF;
 }
 
+
+@media (max-width: 1024px) {
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .main-hero {
+        margin-left: 0;
+        align-items: left;
+    }
+
+    .comece-agora-btn {
+        margin-top: 4rem;
+    }
+
+    .cards-beneficios {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .cards-hero .card{
+        width: 30rem;
+    }
+
+    .card {
+        width: 17rem;
+        margin-right: 0;
+        align-items: left;
+        text-align: left;
+    }
+
+    .beneficios {
+        padding-top: 1rem;
+    }
+
+
+    .demonstracao img {
+        width: 110%;
+        margin-left: 0;
+    }
+
+    .funcionalidades-container {
+        align-items: center;
+    }
+
+    .funcionalidade {
+        flex-direction: line;
+    }
+
+    .apresentacao {
+        padding: 0 1rem;
+    }
+
+    .informacoes {
+        flex-direction: line;
+        gap: 1rem;
+    }
+
+
+}
+
+
 @media screen and (max-width: 500px) {
     html{
         overflow-x: hidden;

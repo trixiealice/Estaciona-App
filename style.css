@@ -307,6 +307,11 @@ footer{
     justify-content: space-evenly;
 }
 
+.footer-second-content{
+    display:flex;
+    gap: 7rem;
+}
+
 .footer-logo p{
     width:  clamp(230px, 18vw, 280px);
      color:#B1C0CF;
@@ -353,7 +358,8 @@ footer{
 }
 
 
-@media (max-width: 1024px) {
+/* tablet */
+@media (max-width: 1024px) and (min-width: 501px) {
 
     .hero-content {
         flex-direction: column;
@@ -414,6 +420,12 @@ footer{
         gap: 1rem;
     }
 
+    .footer-second-content {
+        flex-direction: column;
+        align-items: left;
+        gap: 2rem;
+    }
+
 
 }
 
@@ -464,7 +476,14 @@ footer{
     .cards-beneficios{
         flex-direction: column;
         align-items: left;
-        margin: 0;
+    }
+
+    .cards-beneficios .card{
+        margin: 0 auto;
+    }
+
+    .cards-hero .card{
+        width: 20rem;
     }
 
     .beneficios{
@@ -477,6 +496,10 @@ footer{
 
     .funcionalidade{
         gap: 5px;
+    }
+
+    .funcionalidades-container {
+        align-items: left;
     }
 
     .funcionalidade img{
@@ -515,6 +538,12 @@ footer{
         padding: 2rem 1rem;
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .footer-second-content{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: left;
     }
 
 

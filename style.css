@@ -460,6 +460,10 @@ footer{
         gap: 2rem;
     }
 
+    #saidaModal{
+        flex-direction: column;
+    }
+
 
 }
 
@@ -578,6 +582,10 @@ footer{
         flex-direction: column;
         gap: 2rem;
         align-items: left;
+    }
+
+    #saidaModal{
+        flex-direction: column;
     }
 
 

@@ -214,15 +214,15 @@
 </body>
 
 <script>
-    //  Seleciona TODOS os botões que têm a classe 'comece-agora-btn'
+    //  Seleciona os botões que têm a classe 'comece-agora-btn'
     const botoes = document.querySelectorAll('.comece-agora-btn');
     
     // Seleciona o elemento do modal
     const modal = document.getElementById('saidaModal');
 
-    //  Itera sobre cada botão encontrado
+    //  para cada botão encontrado
     botoes.forEach(botao => {
-        // Adiciona um listener de evento 'click' a CADA botão
+        // adciona uma ação de clique a cada botão
         botao.addEventListener('click', (event) => {
             // Exibe o modal
             modal.style.display = 'flex';

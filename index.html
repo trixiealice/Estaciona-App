@@ -38,7 +38,7 @@
                     <h2>Controle de entradas, saídas e pagamentos com rapidez, <br> segurança e automação.</h2>
                 </div>
 
-                <button class="comece-agora-btn">Comece agora</button>
+                <button class="comece-agora-btn" id="botao">Comece agora</button>
             </div>
 
             <div class="cards-hero">
@@ -203,6 +203,31 @@
             </div>
             
         </section>
-    </footer>    
+    </footer>  
+    
+    <div id="saidaModal">
+        <h3>Não perca tempo!</h3>
+        <p>Automatize seu estacionamento hoje e ganhe 1 mês grátis.</p>
+        <button onclick="window.location.href='#contato'" id="saber-mais-btn">Quero saber mais</button>
+        <button onclick="document.getElementById('saidaModal').style.display='none'" id="fechar-btn">Fechar</button>
+    </div>
 </body>
+
+<script>
+    //  Seleciona TODOS os botões que têm a classe 'comece-agora-btn'
+    const botoes = document.querySelectorAll('.comece-agora-btn');
+    
+    // Seleciona o elemento do modal
+    const modal = document.getElementById('saidaModal');
+
+    //  Itera sobre cada botão encontrado
+    botoes.forEach(botao => {
+        // Adiciona um listener de evento 'click' a CADA botão
+        botao.addEventListener('click', (event) => {
+            // Exibe o modal
+            modal.style.display = 'flex';
+        });
+    });
+
+</script>
 </html>

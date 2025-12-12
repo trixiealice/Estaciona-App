@@ -404,7 +404,7 @@ footer{
     }
 
     .funcionalidades-container {
-        align-items: center;
+        margin-left: 10px;
     }
 
     .funcionalidade {
